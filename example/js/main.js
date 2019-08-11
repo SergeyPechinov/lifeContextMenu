@@ -1,0 +1,1 @@
+let contextMenu = new liteContextMenu('context-menu');

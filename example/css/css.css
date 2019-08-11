@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.context-menu {
+    display: none;
+    position: absolute;
+    max-width: 260px;
+    width: 100%;
+    z-index: 10;
+    background-color: #DDD;
+    border-radius: 10px;
+}
+
+.context-menu__list {
+    padding: 20px 0;
+}
+
+.context-menu__item {
+    display: block;
+    padding: 5px 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.context-menu__item:hover {
+    background-color: #CCC;
+}
+
+.context-menu--active {
+    display: block;
+}
