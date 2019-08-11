@@ -68,7 +68,7 @@ let contextMenu = new liteContextMenu('context-menu');
 
 ```js
 let contextMenu = new liteContextMenu('contextMenu', {
-    classNames = {
+    classNames: {
 		classList: 'contextMenu__list',
 		classItem: 'contextMenu__item',
 	}
