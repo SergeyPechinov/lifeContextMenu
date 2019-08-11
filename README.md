@@ -1,5 +1,7 @@
-# liteContextMenu
-##HTML
+liteContextMenu
+=========
+HTML
+---------
 ***Нужно указать название класса `class="context-menu"`***
 ```html
     <div class="context-menu">
@@ -13,7 +15,8 @@
     </div>
 ```
 
-##СSS
+СSS
+---------
 ```css
 .context-menu {
     display: none;
@@ -24,12 +27,14 @@
 }
 ```
 
-##JS
+JS
+---------
 ```js
 let contextMenu = new liteContextMenu('context-menu');
 ```
 
-##Дополнение
+Дополнение
+---------
 Название родительского блока может быть любым, главное передать то же название при подключении в JS.
 
 После инициализации JS, получится такая структура:
